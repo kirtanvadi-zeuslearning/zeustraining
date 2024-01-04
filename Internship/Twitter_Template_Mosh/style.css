@@ -1,0 +1,56 @@
+body {
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh; /* Ensures the card is centered vertically */
+    }
+.card {
+      width: 457px;
+      height: 138px;
+      display: flex;
+      margin: 4px;
+      align-items: center;
+}
+
+.card-image img {
+      width: 130px;
+      height: 130px;
+}
+
+.card-content {
+      padding-left: 14px;
+}
+
+.card-header {
+      font-family: 'Roboto',sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+      color: #000000;
+      margin-bottom: 5px;
+}
+
+.card-description {
+      font-family: 'Roboto',sans-serif;
+      font-weight: 'regular';
+      font-size: 20px;
+      color: #000000;
+      padding-top: 14px;
+      padding-bottom: 24px;
+}
+
+.fa-regular,
+.fa-solid {
+      font-size: 20px;      
+}
+
+.comment-count,
+.retweet-count,
+.like-count{
+      font-family: 'Roboto', sans-serif;
+      font-weight: medium;
+      font-size: 15px;
+      color: #858991;
+      padding-left: 14px;
+      padding-right: 24px;
+}
