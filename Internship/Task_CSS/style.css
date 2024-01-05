@@ -1,0 +1,36 @@
+body {
+      background-color: lightyellow;
+}
+
+h1 {
+
+      background: linear-gradient(to bottom, #800303 80%, #FF0000 20%);
+      color: white;
+      padding: 10px;
+      margin: 0;
+}
+
+h2 {
+      background-color: green;
+      color: white;
+}
+
+h3 {
+      color: gray;
+}
+
+ul {
+      color: red;
+}
+
+table {
+      border: 1px solid;
+      background-color: lightgray;
+}
+
+th,
+td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+}
