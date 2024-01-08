@@ -1,0 +1,311 @@
+body {
+      font-family: Quicksand_font;
+      background-color: #eee;
+      margin: 0;
+}
+
+@font-face {
+      font-family: Quicksand_font;
+      src: url(quantum_screen_assets/Quicksand_font_1/Quicksand-VariableFont_wght.ttf);
+}
+
+.navbar {
+      background-image: url("quantum_screen_assets/header_pattern_svg.svg");
+      background-color: #000;
+      border-bottom: 0.2rem solid #31b9e4;
+      background-size: cover;
+      display: flex;
+      justify-content: space-between;
+}
+
+.navbar ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+}
+
+.navbar ul li {
+      padding: 1.1rem 1rem;
+}
+
+.navbar ul li a {
+      text-decoration: none;
+      font-weight: 14px;
+      color: #3fd28b;
+      font-weight: bold;
+}
+
+.navbar .active {
+      color: white;
+      border-bottom: 3px solid white;
+      padding-bottom: 0.9rem;
+}
+
+.navbar .nav-logo {
+      display: flex;
+      align-items: center;
+}
+
+.navbar .nav-logo .logo>a {
+      margin-right: 1rem;
+}
+
+.navbar-toggler {
+      color: white;
+      display: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+}
+
+.container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      margin: 1.5rem;
+}
+
+.container .upperpart {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      background-color: #8ddc97;
+}
+
+.container .upperpart img {
+      margin-right: 1rem;
+}
+
+.container .upperpart h2 {
+      margin-right: 0.5rem;
+}
+
+.container .upperpart .courses,
+.container .upperpart .classes {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.container .upperpart .courses {
+      border-bottom: 5px solid black;
+}
+
+.container .filter {
+      display: flex;
+      align-items: center;
+      margin-top: 0.5rem;
+      border-bottom: 2px solid rgb(226, 222, 222);
+}
+
+.container .filter .inner-filter {
+      margin-left: auto;
+}
+
+.container .filter input {
+      font-size: 16px;
+      border: none;
+      border-bottom: 1px solid rgb(226, 222, 222);
+      color: #000;
+      background-color: #eee;
+      width: 10rem;
+}
+
+.container .filter .sort {
+      margin-left: 1.5rem;
+}
+
+.container .contant {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+}
+
+.container .contant .all {
+      background-color: white;
+      width: 476px;
+      padding: 1rem;
+      margin-top: 1rem;
+}
+
+.container .contant .Course-img {
+      width: 132px;
+      float: left;
+      margin-right: 1rem;
+}
+
+.container .contant .fav {
+      float: right;
+      margin-right: 1rem;
+}
+
+.container .contant h4 {
+      margin-bottom: 0;
+      margin-top: 0;
+}
+
+.container .contant .course-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.container .contant .course-Name {
+      display: flex;
+}
+
+.container .contant .Sub-name {
+      padding-right: 0.5rem;
+      border-right: 1px solid rgb(226, 222, 222);
+      margin-right: 0.5rem;
+}
+
+.container .contant .include {
+      margin-left: 0.5rem;
+      color: #1f7a54;
+}
+
+.container .contant .all p {
+      margin-top: 0.5rem;
+}
+
+.container .contant .course-size {
+      display: flex;
+      align-items: center;
+}
+
+.container .contant .course-size p {
+      margin-top: 0;
+      margin-bottom: 0;
+}
+
+.container .contant .course-size p {
+      margin-left: 0.2rem;
+      margin-right: 0.5rem;
+}
+
+.container .contant .book-writer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 290px;
+}
+
+.container .contant select {
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid rgb(226, 222, 222);
+      font-family: inherit;
+      color: #000;
+      font-weight: 900;
+      margin-top: 0.5rem;
+      margin-top: 1rem;
+      font-size: 16px;
+}
+
+.container .contant #spc {
+      color: rgb(169, 158, 158);
+}
+
+.container .contant .book-writer input::-moz-placeholder {
+      color: #000;
+}
+
+.container .contant .book-writer input:-ms-input-placeholder {
+      color: #000;
+}
+
+.container .contant .book-writer input::placeholder {
+      color: #000;
+}
+
+.container .contant .info {
+      display: flex;
+      font-size: 12px;
+      color: rgb(105, 105, 105);
+}
+
+.container .contant .student {
+      padding-right: 0.5rem;
+      border-right: 1px solid rgb(226, 222, 222);
+      margin-right: 0.5rem;
+}
+
+.container .contant .course-footer {
+      margin-top: 1rem;
+      padding-top: 1rem;
+      display: flex;
+      justify-content: space-around;
+      border-top: 1px solid rgb(226, 222, 222);
+}
+
+.pages {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1rem;
+      font-weight: bold;
+}
+
+.pages a {
+      text-decoration: none;
+      color: #1f7a54;
+}
+
+.pages .about {
+      padding-right: 0.5rem;
+      border-right: 1px solid rgba(0, 0, 0, 0.1215686275);
+}
+
+.pages .contact {
+      padding-left: 0.6rem;
+}
+
+.footer {
+      display: flex;
+      justify-content: center;
+      background-color: #e0e1e1;
+      padding: 0.5rem;
+}
+
+.footer p {
+      font-size: 12px;
+      color: #616161;
+      padding: 0.5rem;
+}
+
+.footer copy {
+      border-left: 1px solid rgba(0, 0, 0, 0.1215686275);
+      font-weight: 600;
+}
+
+.footer .solve {
+      font-weight: 600;
+}
+
+.footer .footer-logo {
+      padding-right: 0.5rem;
+}
+
+.footer .compnay-name {
+      font-weight: bold;
+}
+
+@media screen and (max-width: 824px) {
+      .navbar-toggler {
+            display: block;
+            margin: 1rem;
+      }
+
+      .nav-items {
+            display: none;
+      }
+
+      .navbar-menu.active {
+            display: flex;
+      }
+
+      .logo {
+            position: absolute;
+            right: 2rem;
+      }
+
+}

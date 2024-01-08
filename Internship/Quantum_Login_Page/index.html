@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Quantum_Login_Page</title>
+        <script
+            src="https://kit.fontawesome.com/f4556f5706.js"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar">
+                <img
+                    class="header-logo"
+                    src="quantum_screen_assets/icons/logo used in header.svg"
+                    alt="header-logo" />
+            </nav>
+        </header>
+        <div class="container">
+            <div class="form-header">
+                <div class="back-icon-class">
+                    <img
+                        class="back-icon"
+                        src="/quantum_screen_assets/icons/back.svg"
+                        alt="back icon" />
+                </div>
+                <div class="form-header-Dcp">
+                    <h1>Log in with Quantum</h1>
+                </div>
+            </div>
+            <div class="radio-ops">
+                <input type="radio" name="ops" id="District" />
+                <label class="radio-label" for="radio1">District</label>
+                <input
+                    type="radio"
+                    class="ops"
+                    name="ops"
+                    id="Independent-school" />
+                <label class="radio-label" for="radio2"
+                    >Independent school</label
+                >
+            </div>
+            <form action="">
+                <div class="dropdown-container">
+                    <h5>State*</h5>
+                    <select>
+                        <option value="option1">Alabama</option>
+                        <option value="option2">Gujarat</option>
+                    </select>
+                    <h5 class="district">District*</h5>
+                    <select>
+                        <option value="option3">Alabama School District</option>
+                        <option value="option4">Surat</option>
+                    </select>
+                </div>
+                <div class="name">
+                    <input type="text" placeholder="Username/Email ID*" />
+                    <a href="#">FORGOT USERNAME?</a>
+                    <div class="password-eye">
+                        <input
+                            class="password"
+                            id="password-input"
+                            type="password"
+                            placeholder="Password*" />
+                        <i
+                            class="fa-solid fa-eye"
+                            id="toggle-password-visibility"></i>
+                    </div>
+                    <a href="#">FORGOT PASSWORD?</a>
+                </div>
+                <div class="checkbox">
+                    <img
+                        src="/quantum_screen_assets/icons/checkbox-checked.svg"
+                        alt="" />
+                    <label id="remember" for="remember">Remember Me</label>
+                </div>
+                <button>LOGIN</button>
+            </form>
+        </div>
+        <footer>
+            <div class="pages">
+                <a class="about" href="#">About</a>
+                <a class="contact" href="#">Contact Us</a>
+            </div>
+            <div class="footer">
+                <img
+                    class="footer-logo"
+                    src="/quantum_screen_assets/icons/logo used in footer.svg"
+                    alt="footer-logo" />
+                <p class="copy">Copyright © 2020-2021</p>
+                <p class="compnay-name">Zeus Systems Pvt. Ltd.</p>
+                <p class="solve">All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>
